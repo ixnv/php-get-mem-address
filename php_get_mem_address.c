@@ -35,8 +35,8 @@ PHP_FUNCTION(get_mem_address) {
         return;
     }
 
-    char *address;
-    sprintf(address, "%p", &value->value);
+    char address[1024];
+    sprintf(address, "%p", value->value);
 
     RETURN_STRING(address);
 }
