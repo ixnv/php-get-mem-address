@@ -1,11 +1,11 @@
-# php-mem-get-address
+# php-get-mem-address
 
 simple php extension which allows to get memory address of a variable
 
 made for learning purposes only
 
 ### build
-* change *set(phproot ~/php-src/)* in CMakeLists to your own php-src directory
+* change *set(phproot ~/php-src/)* in CMakeLists.txt to your own php-src directory
 * run build.sh
 
 ### usage
