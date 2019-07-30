@@ -1,6 +1,6 @@
 # php-mem-get-address
 
-simple php extension that return memory address of a variable
+simple php extension which allows to get memory address of a variable
 
 made for learning purposes only
 
